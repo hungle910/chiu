@@ -1,0 +1,68 @@
+header {
+    background-color:whitesmoke;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top:0;
+}
+
+.UwU {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a.UwU:hover {
+    background-color:red;
+    color: white;
+}
+
+main {
+    margin: 0 350px;
+    margin-top: 50px;
+}
+
+.so2 {
+    width: 550px;
+}
+
+a.so3>img{
+    width: 550px;
+}
+
+#so4 {
+    text-decoration: none;
+    color: black;
+}
+
+a#so4:hover {
+    color:red;
+}
+
+div.so2>p {
+    margin-top: -15px;
+}
+
+.so5 {
+    margin-top: 20px;
+    width: 550px;
+}
+
+.so7 {
+    display: block;
+    width: 160px;
+}
+
+.so6 {
+    display: inline-block;
+    width: 160px;
+    margin: 5px 5px;
+}
+
+a.so8 {
+    text-decoration: none;
+    color: black;
+}
+
+a.so8:hover {
+    color: red
+}
