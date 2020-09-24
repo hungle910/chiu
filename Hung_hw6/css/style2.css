@@ -8,7 +8,8 @@ header {
 
 .UwU {
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0px 5px;
+    color: black;
 }
 
 a.UwU:hover {
@@ -65,4 +66,18 @@ a.so8 {
 
 a.so8:hover {
     color: red
+}
+.so9 {
+    overflow:scroll;
+    border: 1px solid hotpink;
+    width: 170px;
+    height: 5s50px;
+    margin: 5px 5px;
+}
+.so10{
+    text-decoration: none;
+    color: black;
+}
+a.so10:hover{
+  color: red;
 }
