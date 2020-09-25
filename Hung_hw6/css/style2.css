@@ -54,7 +54,7 @@ div.so2>p {
 }
 
 .so6 {
-    display: inline-block;
+    display: inline-block;  
     width: 160px;
     margin: 5px 5px;
 }
@@ -70,9 +70,10 @@ a.so8:hover {
 .so9 {
     overflow:scroll;
     border: 1px solid hotpink;
-    width: 170px;
+    width: 140px;
     height: 550px;
     margin:left 20px;
+    display: inline-block;
 }
 .so10{
     text-decoration: none;
@@ -80,4 +81,7 @@ a.so8:hover {
 }
 a.so10:hover{
   color: red;
+}
+.so0{
+    display: inline-block;  
 }
