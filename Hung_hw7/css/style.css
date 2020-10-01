@@ -1,0 +1,40 @@
+.UwU{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+.thanhchon{
+    border: purple solid 1px;
+    border-radius: 5px;
+    color: White;
+    text-decoration:none;
+    background-color: rgb(61, 9, 61);
+}
+body{
+    background-image: url(../img/9d3b20f8eb9ebbbd8fa43da15bc053e2.jpg) ;
+}
+img{
+    width: 250px;
+}
+.sanpham{
+    background-color: white;
+    text-align: center;  
+    display: inline-block;  
+    width: 250px;
+    margin: 50px 50px 50px 80px;}
+#divtonhat{
+   color: white;
+   padding: 50px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+img{
+    height: 300px;
+}
+
