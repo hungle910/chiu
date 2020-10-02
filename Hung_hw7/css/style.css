@@ -1,9 +1,10 @@
-.UwU{
+main{
     background-color: darkblue;
     display: flex;
     justify-content: space-around;
     margin-top: -10px;
     position: fixed;
+    z-index: 2;
     width: 100%;
     padding: 15px;
 }
@@ -26,7 +27,7 @@ img{
     display: inline-block;  
     width: 250px;
     margin: 50px 50px 50px 80px;}
-#divtonhat{
+header{
    color: white;
    padding: 50px;
 }
@@ -37,4 +38,26 @@ h3{
 img{
     height: 300px;
 }
-
+.thanhchon:hover{
+    background-color:yellowgreen;
+}
+.footer{
+    text-align: center;
+    color: white;
+}
+#sale{
+    margin: 0px 30px 30px 200px;
+    width: 50px;
+    background-color:orangered ;
+    position:absolute ;
+    z-index: 1;
+}
+#sanpham{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    text-align: center;  
+    display: inline-block;  
+    width: 250px;
+    margin: 50px 50px 50px 80px;}  
+}
