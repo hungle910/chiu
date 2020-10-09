@@ -1,0 +1,41 @@
+header{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(95, 251, 230,0.6 );
+    margin-left:450px ;
+    margin-right: 450px; ; 
+    padding-bottom: 100px;  
+    padding-top: 50px;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image:url(../img/9d3b20f8eb9ebbbd8fa43da15bc053e2.jpg) ;
+    background-size: cover ;
+    font-family: 'Lobster', cursive; 
+    padding-top: 50px;
+}
+button{
+    background-color: purple;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+  
+}
+.tendangnhap{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10PX;
+}
+.matkhau{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+a{
+    color: white;
+}

@@ -1,0 +1,65 @@
+main{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 15px;
+}
+.thanhchon{
+    border: purple solid 1px;
+    border-radius: 10px;
+    color: White;
+    text-decoration:none;
+    background-color: rgb(61, 9, 61);
+    padding: 10px;
+}
+body{
+    background-image: url(../img/9d3b20f8eb9ebbbd8fa43da15bc053e2.jpg) ;
+    background-size:cover ;
+}
+img{
+    width: 250px;
+}
+.sanpham{
+    background-color: white;
+    text-align: center;  
+    display: inline-block;  
+    width: 250px;
+    margin: 50px 50px 50px 80px;}
+header{
+   color: white;
+   padding: 50px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+img{
+    height: 300px;
+}
+.thanhchon:hover{
+    background-color:yellowgreen;
+}
+.footer{
+    text-align: center;
+    color: white;
+}
+#sale{
+    margin: 0px 30px 30px 200px;
+    width: 50px;
+    background-color:orangered ;
+    position:absolute ;
+    z-index: 1;
+}
+#sanpham{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    text-align: center;  
+    display: inline-block;  
+    width: 250px;
+    margin: 50px 50px 50px 80px;}  
+}
