@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Hung_hw11.css">
+</head>
+<body>
+    <div id="Div1"></div>
+    <script>
+    function btnRed() {
+        document.getElementById("Div1").style.backgroundColor="Red";
+      }
+      function btnGreen() {
+  document.getElementById("Div1").style.backgroundColor="Green";
+}
+function btnBlue() {
+  document.getElementById("Div1").style.backgroundColor="Blue";
+}
+    </script>
+    <div id="DivBtn"> <input type="button" id="btnR" value="Red" onclick="btnRed();"> &nbsp;&nbsp;
+        <input type="button" id="btnG" value="Green" onclick="btnGreen();">&nbsp;&nbsp;
+        <input type="button" id="btnB" value="Blue" onclick="btnBlue();">&nbsp;&nbsp;
+      </div>
+</body>
+</html>
