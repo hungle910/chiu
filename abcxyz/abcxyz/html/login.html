@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+
+              <Header>
+                <H1 >Login</H1>
+                <form action="#">
+                    <div class="input-wrapper">
+                    <input class="email" type="text" placeholder="Username"></div>
+                    <div class="error" id="email-error"></div>
+              </div>
+                    <div class="input-wrapper">
+                    <input class="password" type="password" placeholder="password"></div>
+                    <div class="error" id="password-error"></div>
+              </div>
+              <div class="form-action">
+                <span class="cursor-pointer" id="redirect-to-register">
+                  Don't have an account? register 
+                </span> <br>
+                <button class="btn" type="submit">Login</button>
+              </div>
+                </form>
+            </Header>
+        </form>
+    </Header>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/view.js"></script>
+    <script src="../js/model.js"></script>
+    <script src="../js/controller.js"></script>
+
+    
+</body>
+</html>

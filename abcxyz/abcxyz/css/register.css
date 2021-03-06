@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+    background-color: rgb(95, 251, 230,0.3 );
+    margin-left:400px ;
+    margin-right: 450px; ; 
+    padding-bottom: 100px;  
+    padding-top: 50px;
+}
+body{
+    background-image: url(../img/9d3b20f8eb9ebbbd8fa43da15bc053e2.jpg);
+    font-family: 'Lobster', cursive;
+}
+
+
+.input-name-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.input-name-wrapper .input-wrapper{
+    width: 48%;
+}
+
+
+#register-form{
+    padding: 20px;
+}
+
+
+.form-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
